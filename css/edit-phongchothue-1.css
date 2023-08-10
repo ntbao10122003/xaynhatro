@@ -1,0 +1,178 @@
+.boloc {
+    display: flex;
+}
+.btn {
+    float: right;
+    border-radius: 20px;
+    border: 1px solid #b2adad;
+    padding: 5px 15px;
+    font-weight: 500;
+}
+button.btn.btntt {
+    float: unset;
+    width: 95px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+select.form-select {
+    padding: 3px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.caidat {
+    float: right;
+}
+.list {
+    font-size: 14px;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+td.pn{
+    text-align: center;
+}
+.timkiem {
+    border: 1px solid #ced4da;
+    padding: 3px 0px 3px 5px;
+    border-radius: 20px;
+    background: #e7e9ec;
+    margin-right: 30px;
+    font-size: 14px;
+}
+button.search-icon {
+    border: none;
+    border-radius: 50%;
+    background: #e7e9ec;
+}
+input.search-input {
+    border: none;
+    background: #e7e9ec;
+    width: 280px;
+    border-radius: 20px;
+}
+.phongvaphongngu {
+    margin: 0 5px;
+}
+.tiennghi {
+    margin: 0 5px;
+}
+.tinhtrang {
+    margin: 0 5px;
+}
+.cacbolockhac {
+    margin: 0 5px;
+}
+div#example_length {
+    display: none;
+}
+div#example_filter {
+    display: none;
+}
+div#example_info {
+    display: none;
+}
+div#example_paginate {
+    display: none;
+}
+.sp-left {
+    float: left;
+    padding-right: 5px;
+}
+td.product img {
+    width: 70px;
+}
+td.product h2 {
+    font-size: 14px;
+    margin: 0 10px;
+}
+.icontrangthai {
+    float: left;
+    padding-right: 5px;
+}
+i.fa-solid.fa-circle {
+    color: #1dc21d;
+}
+.icondat {
+    float: left;
+    padding-right: 5px;
+}
+i.fa-solid.fa-check.off{
+    padding: 4px 4px 3px 4px;
+    border-radius: 50%;
+    background: #dad8d8;
+    color: white;
+}
+i.fa-solid.fa-check.on{
+    padding: 4px 4px 3px 4px;
+    border-radius: 50%;
+    background: #1dc21d;
+    color: white;
+}
+button.btn.dachon {
+    float: unset;
+    margin: 30px auto;
+    display: block;
+    height: 3em;
+    border-radius: 30px;
+    background: #94ce68;
+    color: white;
+}
+button.btn.dachon span {
+    border: 1px solid;
+    font-size: 14px;
+}
+button.btn.dachon a {
+    color: white;
+}
+table{
+    width: max-content;
+}
+table.dataTable>thead>tr>th, table.dataTable>thead>tr>td {
+    white-space: nowrap;
+}
+.vitri {
+    width: 140px;
+}
+.tentrangthai{
+    width: 120px;
+}
+@media screen and (max-width: 1200px){
+    input.search-input {
+        width: auto;
+    }
+    .timkiem {
+        margin-right: 5px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .phongvaphongngu {
+        margin: 10px 2px;
+    }
+    .tiennghi {
+        margin: 10px 2px;
+    }
+    .tinhtrang {
+        margin: 10px 2px;
+    }
+    .cacbolockhac {
+        margin: 10px 2px;
+    }
+}
+@media screen and (max-width: 992px){
+    .boloc {
+        display: block;
+    }
+    .timkiem {
+        margin: 0 2px;
+    }
+}
+@media screen and (max-width: 768px){
+    .caidat {
+        float: unset;
+    }
+}
+@media screen and (max-width: 576px){
+    .btn{
+        float: left;
+    }
+}

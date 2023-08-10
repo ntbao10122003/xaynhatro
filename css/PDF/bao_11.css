@@ -1,0 +1,48 @@
+.khoi_11 .container {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.title_khoi_11 {
+    font-size: 39px;
+    font-weight: 400;
+    color: gray;
+}
+.content_khoi_11 {
+    margin-top: 10px;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.khoi_11 textarea {
+    overflow: auto;
+    width: 100%;
+    resize: vertical;
+    height: 200px;
+    border: 1px solid black;
+}
+.box_khoi_11 {
+    width: 70%;
+}
+
+@media screen and (max-width: 991px){}
+@media screen and (max-width: 768px){
+    .box_khoi_11 {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .box_khoi_11 {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 400px){
+
+    .box_khoi_11 {
+        width: 100%;
+    }
+    
+}

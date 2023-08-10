@@ -1,0 +1,140 @@
+
+.khoi_12 .container {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.title_khoi_12 {
+    font-size: 40px;
+    color: gray;
+}
+.box_khoi_12 {
+    width: 70%;
+}
+.box-tienich-khoi12 {
+    width: 100%;
+   
+}
+.box2 .box-1-tienich-12 {
+    margin-right: 20px;
+    border: 1px solid #94ce68;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.box1 .box-1-tienich-12 {
+    margin-right: 20px;
+    border: 1px solid #94ce68;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.box_khoi_12 .box2 {
+    display: flex;
+    padding-top: 10px;
+}
+.box_khoi_12 .box1 {
+    display: flex;
+    padding-top: 20px;
+}
+.content_khoi_12 {
+    color: gray;
+}
+.box-1-tienich-12:hover {
+    background: #94ce68;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 991px){}
+@media screen and (max-width: 768px){
+    .box_khoi_12 {
+        width: 100%;
+    }
+    .title_khoi_12 {
+        font-size: 27px;
+        color: gray;
+        text-align: center;
+    }
+    .content_khoi_12 {
+        color: gray;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    
+    .box1 .box-1-tienich-12 {
+        margin-right: 4px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .box2 .box-1-tienich-12 {
+        margin-right: 4px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width: 576px){
+    .box_khoi_12 {
+        width: 100%;
+    }
+    .title_khoi_12 {
+        font-size: 27px;
+        color: gray;
+        text-align: center;
+    }
+    .content_khoi_12 {
+        color: gray;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .box1 .box-1-tienich-12 {
+        margin-right: 4px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .box2 .box-1-tienich-12 {
+        margin-right: 4px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width: 400px){
+
+    .box_khoi_12 {
+        width: 100%;
+    }
+    .title_khoi_12 {
+        font-size: 27px;
+        color: gray;
+        text-align: center;
+    }
+    .content_khoi_12 {
+        color: gray;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .box1 .box-1-tienich-12 {
+        margin-right: 4px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .box2 .box-1-tienich-12 {
+        margin-right: 4px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+}

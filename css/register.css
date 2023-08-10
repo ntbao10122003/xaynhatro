@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  p{
+  }
+  .main-register{
+    width: 40%;
+    margin: 0 auto;
+  }
+  .logo-register img{
+    width: 200px;
+  }
+  .content-register{
+    padding: 50px 20px 0 20px;
+  }
+  .register-h2{
+    font-weight: 400;
+  }
+  .trust-us{
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  .register-h2{
+    font-size: 1.6rem;
+  }
+  .content-p1{
+    margin-top: 20px;
+  }
+  .detail-content a{
+    color: #000;
+    text-decoration: underline;
+    margin-top: 30px;
+    display: block;
+    font-weight: 700;
+  }
+  .detail-content a:hover{
+    color: #94CE68;
+  }
+  .register-h3{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 40px;
+    display: block;
+  }
+  .register-weight{
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .confirm-button {
+    display: block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .confirm-button.accept {
+    background-color: #94CE68;
+    color: #fff;
+  }
+  
+  .confirm-button.reject {
+    border: 1px solid #000;
+    color: #000;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 1200px){
+    .main-register{
+      width: 80%;
+      margin: 0 auto;
+    }
+    .button-container {
+        text-align: center;
+        margin-top: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 576px){
+    .main-register{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .button-container {
+        text-align: center;
+        margin-top: 40px;
+    }
+  }
