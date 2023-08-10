@@ -130,6 +130,17 @@ select.form-select.quocgia:focus {
     box-shadow: none;
     border: 1px solid #ced4da;
 }
+.help1:hover {
+    background: #94CE68;
+    color: white;
+    border: 1px solid #94CE68;
+}
+.back1 a:hover {
+    color: #78A754;
+}
+.next1 button:hover {
+    background: #78A754;
+}
 @media screen and (max-width: 1200px){
     .ftex{
         width: 70%;

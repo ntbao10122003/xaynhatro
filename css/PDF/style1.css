@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.row.co {
+    align-items: center;
+}
 p{
     margin-bottom: 0!important;
 }
@@ -13,10 +16,10 @@ p{
     width: 200px;
     margin-top: 20px;
 }
-.main-tro1{
-    width: 90%;
-    margin: 0 auto;
-}
+    /* .main-tro1{
+        width: 90%;
+        margin: 0 auto;
+    } */
 .help1{
     color: #969696;
     border: 1px solid #969696;
@@ -25,8 +28,40 @@ p{
     margin-top: 20px;
     padding: 4px 14px 6px 14px;
 }
+.back1{
+    margin-left: 100px;
+}
+.back1 a{
+    text-decoration: underline;
+    color: #94CE68;
+    padding-bottom: 50px;
+}
+.next1{
+    text-align: right;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
+.next1 button{
+    background-color: #94CE68;
+    color: #fff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.help1:hover {
+    background: #94CE68;
+    color: white;
+    border: 1px solid #94CE68;
+}
+.back1 a:hover {
+    color: #78A754;
+}
+.next1 button:hover {
+    background: #78A754;
+}
 .big-title1 {
-    padding: 200px 71px;
+    padding: 200px 85px;
 }
 .content-xemnhatro1{
     display: flex;
@@ -54,37 +89,8 @@ p{
 .big-content1:last-child{
     border: none;
 }
-.back1{
-    margin-left: 100px;
-}
-.back1 a{
-    text-decoration: underline;
-    color: #94CE68;
-    padding-bottom: 50px;
-}
-.next1{
-    text-align: right;
-    margin-right: 100px;
-    padding-bottom: 50px;
-}
-.next1 button{
-    background-color: #94CE68;
-    color: #fff;
-    padding: 10px 35px;
-    border: none;
-    border-radius: 10px;
-}
-.help1:hover {
-    background: #94CE68;
-    color: white;
-    border: 1px solid #94CE68;
-}
-.back1 a:hover {
-    color: #78A754;
-}
-.next1 button:hover {
-    background: #78A754;
-}
+
+
 @media screen and (max-width : 1600px) {
     
 }
@@ -93,7 +99,7 @@ p{
 }
 @media screen and (max-width : 1200px) {
     .big-title1 {
-        padding: 200px 0px 100px 30px;
+        padding: 200px 0px 100px 80px;
     }
 }
 @media screen and (max-width: 991px) {
