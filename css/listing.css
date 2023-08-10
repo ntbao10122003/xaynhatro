@@ -10,6 +10,15 @@
     width: 90%;
     margin: 0 auto;
   }
+  .name-product h2 a:hover {
+    color: #94ce68;
+}
+.page-link:hover {
+  z-index: 2;
+  color: #000;
+  background-color: #94ce68;
+  border-color: #dee2e6;
+}
   .product{
     margin-top: 20px;
   }

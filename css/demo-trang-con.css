@@ -91,7 +91,7 @@
     overflow: auto;
     height: 100vh;
 }
-.col-7-header-trangcon span {
+.col-7-header-trangcon span a {
     padding: 0px 15px;
     color: #94ce68;
 }
@@ -187,9 +187,7 @@
     height: auto;
     display: -webkit-inline-box;
 }
-.ttct-ul::-webkit-scrollbar {
-    display: none;
-}
+
 .ttct-li a {
     color: #000;
 }
@@ -398,9 +396,14 @@
 }
 
 
-.title1-box-con span {
+.title1-box-con span a {
     font-weight: 600;
     font-size: 15px;
+    color: #000;
+}
+.title1-box-con span a:hover{
+    color: #94CE68 !important;
+    text-decoration: none;
 }
 .title4-box-con span {
     font-size: 14px;
@@ -445,11 +448,17 @@
 
 /* responsive  */
 @media screen and (max-width: 1200px){
+    .ttct-ul::-webkit-scrollbar {
+        display: none;
+    }
     .slick-mobile {
         display: none !important;
     }
 }
 @media screen and (max-width: 991px){
+    .ttct-ul::-webkit-scrollbar {
+        display: none;
+    }
     .button2-right{
         position: relative;
         width: 100%;
@@ -492,6 +501,9 @@
 
 }
 @media screen and (max-width: 768px){
+    .ttct-ul::-webkit-scrollbar {
+        display: none;
+    }
 
     .button2-right{
         position: relative;
@@ -516,6 +528,9 @@
     }
 }
 @media screen and (max-width: 576px){
+    .ttct-ul::-webkit-scrollbar {
+        display: none;
+    }
     .button2-right{
         position: relative;
         width: 100%;
@@ -543,6 +558,9 @@
     }
 }
 @media screen and (max-width: 400px){
+    .ttct-ul::-webkit-scrollbar {
+        display: none;
+    }
     .box-auto {
         overflow: auto;
         height: 100vh;

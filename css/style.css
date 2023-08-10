@@ -186,7 +186,7 @@
 }
 
 .header__top {
-        border-bottom: 1px solid;
+        border-bottom:1px solid #cacaca;
 }
 .tieude {
     padding-top: 15px;
@@ -501,8 +501,14 @@ ul li{
     
  }
  .up3 img{
-    width: 100%;
+    width: 90%;
  }
+ .up4 a i {
+    color: #94ce68;
+}
+.up2 p a i {
+    color: #94ce68;
+}
 .up4{
     width: 50%;
 }
@@ -554,6 +560,9 @@ ul li{
 }
 .menu_top img {
     width: 30%;
+}
+.khampha2 ul li a:hover {
+    color: #94CE68;
 }
 /* menu ẩn---------------------------------------------------------------------------------------------------------------------- */
 /* menu ẩn---------------------------------------------------------------------------------------------------------------------- */
@@ -1207,7 +1216,7 @@ h5.h2-title-header-signup {
         font-size: 24px;
     }
     .header__top {
-        border-bottom: 1px solid;
+        border-bottom: 1px solid #cacaca;
         color: #cacaca;
         padding-bottom: 20px;
     }

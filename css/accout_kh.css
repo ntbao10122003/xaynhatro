@@ -4,6 +4,9 @@
     align-items: center;
    
 }
+.content1 a:hover {
+    color: #94ce68;
+}
 .dew__left{
     width: 50%;
     font-weight: 500;
