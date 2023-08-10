@@ -25,9 +25,8 @@ p{
     margin-top: 20px;
     padding: 4px 14px 6px 14px;
 }
-.big-title1{
-    
-    padding: 200px 180px 200px 150px;
+.big-title1 {
+    padding: 200px 71px;
 }
 .content-xemnhatro1{
     display: flex;
@@ -75,6 +74,17 @@ p{
     border: none;
     border-radius: 10px;
 }
+.help1:hover {
+    background: #94CE68;
+    color: white;
+    border: 1px solid #94CE68;
+}
+.back1 a:hover {
+    color: #78A754;
+}
+.next1 button:hover {
+    background: #78A754;
+}
 @media screen and (max-width : 1600px) {
     
 }
@@ -82,21 +92,21 @@ p{
    
 }
 @media screen and (max-width : 1200px) {
-    .big-title1{
-        padding: 200px 80px 100px 65px;
+    .big-title1 {
+        padding: 200px 0px 100px 30px;
     }
 }
 @media screen and (max-width: 991px) {
     .big-title1 h1{
         font-size: 2rem;
     }
-    .big-title1{
-        padding: 200px 40px 100px 25px;
+    .big-title1 {
+        padding: 200px 20px 100px 25px;
     }
 }
 @media screen and (max-width: 768px) {
-    .big-title1{
-        text-align: center;
+    .big-title1 {
+        padding: 50px 0 10px 0;
     }
     .next1{
         margin-right: 20px;
