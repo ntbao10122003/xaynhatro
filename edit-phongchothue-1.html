@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/edit-phongchothue-1.css">
+    <link rel="stylesheet" href="css/subnav.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <title>trangchu</title>
@@ -144,7 +148,7 @@
                                             <li class="li2-nav-submenu"><a href="#">Biệt thự</a></li>
                           
                                             <li class="li2-nav-submenu"><a href="#">Gần công viên</a></li>
-                          </li>
+                                    </li>
                                         </ul>
                                     </li>
                                     <li class="li-nav-submenu"><a href="#">Quản lí tài khoản</a></li>
@@ -285,8 +289,130 @@
                         </select>
                     </div>
                 </div>
-                <div class="caidat">
+                <div class="caidat" >
                     <i class="fa-solid fa-gear"></i>
+                </div>
+                <div class="sub-menu2">
+                    <div class="top-submenu2">
+                        <a href="" class="clone"> 
+                            <i class="fa-solid fa-x"></i>
+
+                        </a>
+                        <h2>  Chỉnh sửa 1 mục cho thuê</h2>
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="content-submenu2">
+                        <div class="child-sub1">
+                            <div class="shortcut2">
+                                <p>PHÍM TẮT</p>
+                            </div>
+                            <ul class="ul-submenu2">
+                                <li class="li-submenu2">
+                                    <div>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <a href="#">Chính sách hủy</a>
+                                    </div>
+                                    <div>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                                </li>
+                                <li class="li-submenu2">
+                                    <div>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <a href="#">Tiện nghi</a>
+                                    </div>
+                                    <div>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="child-sub1">
+                            <div class="shortcut2">
+                                <p>ĐỊNH GIÁ</p>
+                            </div>
+                            <ul class="ul-submenu2">
+                                <li class="li-submenu2">
+                                    <a href="#">Phí và lệ phí</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </li>
+                                <li class="li-submenu2">
+                                    <a href="#">Giảm giá theo thời gian ở</a>
+                                    <i class="fa-solid fa-angle-right"></i>                 
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="child-sub1">
+                            <div class="shortcut2">
+                                <p>THÔNG TIN CHI TIẾT NHÀ/PHÒNG CHO THUÊ</p>
+                            </div>
+                            <ul class="ul-submenu2">
+                                <li class="li-submenu2">
+                                    <a href="#">Tiện nghi</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </li>
+                                <li class="li-submenu2">
+                                    
+                                    <a href="#">Nhà cho thuê Xemnhatro.com</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                                <li class="li-submenu2">
+                                    <a href="#">Vị trí</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                                <li class="li-submenu2">
+                                    <a href="#">Loại nhà/phòng</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                                <li class="li-submenu2">
+                                    <a href="#">Phương thức nhận phòng</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                                <li class="li-submenu2">
+                                    <a href="#">Cài đặt đồng bộ hóa</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                                <li class="li-submenu2">
+                                    <a href="#">Trạng thái mục cho thuê</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="child-sub1">
+                            <div class="shortcut2">
+                                <p>CÀI ĐẶT ĐẶT PHÒNG</p>
+                            </div>
+                            <ul class="ul-submenu2">
+                                <li class="li-submenu2">
+                                    <a href="#">Chính sách hủy</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                                <li class="li-submenu2">
+                                    <a href="#">Nội quy nhà</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                                <li class="li-submenu2">
+                                    <a href="#">Thời gian ở</a>
+                                    <i class="fa-solid fa-angle-right"></i>
+            
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <p><a href="#">Gửi phản hồi</a></p>
+                    </div>
+                    <div class="center">
+                        <button class="small-button">Hoàn tất</button>
+                    </div>
                 </div>
                 <div class="list">
                     <table id="example" class="display" style="width:100%">
@@ -306,11 +432,11 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><input type="checkbox"></td>
+                                <td><input checked type="checkbox"></td>
                                 <td class="product">
                                     <div class="sp-left">
                                         <div class="anhsp">
-                                            <img src="image/download.jpg" alt="">
+                                            <img src="images/Layer 1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="sp-right">
@@ -361,7 +487,7 @@
                                 <td class="product">
                                     <div class="sp-left">
                                         <div class="anhsp">
-                                            <img src="image/download.jpg" alt="">
+                                            <img src="images/Layer 1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="sp-right">
@@ -408,7 +534,7 @@
                                 <td class="product">
                                     <div class="sp-left">
                                         <div class="anhsp">
-                                            <img src="image/download.jpg" alt="">
+                                            <img src="images/Layer 1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="sp-right">
@@ -459,7 +585,7 @@
                                 <td class="product">
                                     <div class="sp-left">
                                         <div class="anhsp">
-                                            <img src="image/download.jpg" alt="">
+                                            <img src="images/Layer 1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="sp-right">
@@ -506,7 +632,7 @@
                                 <td class="product">
                                     <div class="sp-left">
                                         <div class="anhsp">
-                                            <img src="image/download.jpg" alt="">
+                                            <img src="images/Layer 1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="sp-right">
@@ -557,7 +683,7 @@
                                 <td class="product">
                                     <div class="sp-left">
                                         <div class="anhsp">
-                                            <img src="image/download.jpg" alt="">
+                                            <img src="images/Layer 1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="sp-right">
@@ -604,7 +730,7 @@
                                 <td class="product">
                                     <div class="sp-left">
                                         <div class="anhsp">
-                                            <img src="image/download.jpg" alt="">
+                                            <img src="images/Layer 1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="sp-right">
@@ -655,7 +781,7 @@
                                 <td class="product">
                                     <div class="sp-left">
                                         <div class="anhsp">
-                                            <img src="image/download.jpg" alt="">
+                                            <img src="images/Layer 1.png" alt="">
                                         </div>
                                     </div>
                                     <div class="sp-right">
@@ -701,7 +827,7 @@
                     </table>
                 </div>
                 <div class="chon">
-                    <button class="btn dachon">
+                    <button class="btn dachon"  onclick="signup2()">
                         Đã chọn <span>&nbsp;1&nbsp;</span> mục cho thuê <a href="#">Chỉnh sửa</a>
                     </button>
                 </div>
@@ -749,6 +875,9 @@
     </div>
     </footer>
     
-    <script src="../coder/js/main.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        new DataTable('#example');
+    </script>
 </body>
 </html>

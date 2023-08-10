@@ -6,6 +6,9 @@
 main {
     background: #f9f9fb;
 }
+.ten-right a:hover {
+    color: #94CE68;
+}
 .banner-right .img-banner-right {
     width: 100%;
 }

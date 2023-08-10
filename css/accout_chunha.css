@@ -16,6 +16,9 @@
      /* margin-left: 13px;
 
 } */
+.content1 a:hover {
+    color: #94ce68;
+}
 .bow1 a{
     text-decoration: none;
     color: black;

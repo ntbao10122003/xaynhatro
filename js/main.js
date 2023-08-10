@@ -1,12 +1,19 @@
 function signup(){
-    var signup = document.querySelector('.signup');
-    if(signup.style.display==='none'){
-      signup.style.display='block'
-    }else{
-      signup.style.display='none'
-    }
-   }
-
+  var signup = document.querySelector('.signup');
+  if(signup.style.display==='none'){
+    signup.style.display='block'
+  }else{
+    signup.style.display='none'
+  }
+ }
+ function signup2(){
+  var signup = document.querySelector('.sub-menu2');
+  if(signup.style.display==='none'){
+    signup.style.display='block'
+  }else{
+    signup.style.display='none'
+  }
+ }
 
 
 
