@@ -1,6 +1,7 @@
 .main .title h3 {
     text-align: center;
     margin: 20px 0;
+    text-transform: uppercase;
 }
 .title {
     border-bottom: 1px solid #cacaca;

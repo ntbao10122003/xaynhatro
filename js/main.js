@@ -1,11 +1,20 @@
-function signup(){
-  var signup = document.querySelector('.signup');
-  if(signup.style.display==='none'){
-    signup.style.display='block'
-  }else{
-    signup.style.display='none'
+var hasClicked = false; 
+var signup = document.querySelector('.signup'); 
+
+function signupClick(event) {
+  event.preventDefault();
+
+  if (!hasClicked) {
+    signup.style.display = 'block';
+    hasClicked = true;
+  } else {
+    signup.style.display = 'none';
+    hasClicked = false;
   }
- }
+}
+
+var signupLink = document.querySelector('.a__right');
+signupLink.addEventListener('click', signupClick);
  function signup2(){
   var signup = document.querySelector('.sub-menu2');
   if(signup.style.display==='none'){

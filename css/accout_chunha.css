@@ -122,7 +122,8 @@ i.bi.bi-cart4 {
 .bo{
     border: 1px solid #cdcdcd;
     margin-top: 85px;
-    
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 85px;
     padding: 130px 150px 30px 150px;
     background-color: #fff;
@@ -133,6 +134,7 @@ i.bi.bi-cart4 {
 .h {
     font-size: 17px;
     text-transform: uppercase;
+   
 }
 
 .ror{
