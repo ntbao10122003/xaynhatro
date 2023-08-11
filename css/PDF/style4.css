@@ -51,11 +51,11 @@ p{
 }
 .content-tro4{
     width: 55%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
-.title-4{
+/* .title-4{
     margin-top: 50px;
-}
+} */
 .h2-title-4{
     color: #7E7E7E;
     font-weight: 400;
@@ -105,11 +105,14 @@ button.bt:focus {
     
 }
 @media screen and (max-width: 1200px){
-    
+    .content-tro4{
+        margin: 40px auto;
+    }
 }
 @media screen and (max-width: 991px){
     .content-tro4{
         width: 85%;
+        margin: 20px auto;
     }
 }
 @media screen and (max-width: 768px){
@@ -124,6 +127,7 @@ button.bt:focus {
     }
     .content-tro4{
         width: 100%;
+
     }
     
 }

@@ -62,6 +62,10 @@ p{
 }
 .big-title1 {
     padding: 200px 85px;
+    color: #747474;
+}
+.co1{
+    margin: 70px 0;
 }
 .content-xemnhatro1{
     display: flex;
@@ -101,6 +105,9 @@ p{
     .big-title1 {
         padding: 200px 0px 100px 80px;
     }
+    .co1{
+        margin: 40px 0;
+    }
 }
 @media screen and (max-width: 991px) {
     .big-title1 h1{
@@ -108,6 +115,9 @@ p{
     }
     .big-title1 {
         padding: 200px 20px 100px 25px;
+    }
+    .co1{
+        margin: 20px 0;
     }
 }
 @media screen and (max-width: 768px) {
@@ -119,6 +129,9 @@ p{
     }
     .back1{
         margin-left: 20px;
+    }
+    .co1{
+        margin: 0;
     }
 }
 @media screen and (max-width: 576px) {
@@ -133,6 +146,13 @@ p{
     }
     .big-title1{
         padding: 50px 20px;
+    }
+    .img-content1 img {
+        width: 70%;
+    }
+    
+    .img-content1 {
+        text-align: center;
     }
 }
     

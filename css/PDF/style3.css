@@ -63,7 +63,7 @@ p{
 
 .content-tro3{
     width: 60%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 .h2-title-3{
     text-align: center;
@@ -105,10 +105,14 @@ button.bt:focus {
     
 }
 @media screen and (max-width: 1200px){
-    
+    .content-tro3{
+        margin: 40px auto;
+    }
 }
 @media screen and (max-width: 991px){
-    
+    .content-tro3{
+        margin: 20px auto;
+    }
 }
 @media screen and (max-width: 768px){
     .content-tro3 {

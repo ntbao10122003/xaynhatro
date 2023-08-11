@@ -58,6 +58,7 @@ button.bt:focus {
 .khoi_11 {
     display: flex;
     justify-content: center;
+    margin: 70px 0;
 }
 .title_khoi_11 {
     font-size: 39px;
@@ -92,12 +93,31 @@ button.bt:focus {
 .next1 button:hover {
     background: #78A754;
 }
-@media screen and (max-width: 991px){}
+
+@media screen and (max-width: 1200px){
+    .khoi_11 {
+        margin: 60px 0;
+    }
+}
+@media screen and (max-width: 991px){
+    .khoi_11 {
+        margin: 40px 0;
+    }
+}
 @media screen and (max-width: 768px){
+    .khoi_11 {
+        margin: 20px 0;
+    }
     .box_khoi_11 {
         width: 100%;
     }
-    
+    .back1{
+        margin-left: 10px;
+    }
+    .next1{
+        margin-right: 10px;
+    }
+
 }
 @media screen and (max-width: 576px){
     .box_khoi_11 {

@@ -51,8 +51,9 @@ p{
     border-radius: 10px;
     outline: none;
 }
-.big-step1{
+.big-step1 {
     margin-top: 120px;
+    color: #747474;
 }
 .img-tro2 img{
     margin-top: 100px;
@@ -134,6 +135,9 @@ p{
     }
     @media screen and ( max-width: 576px)
     {
+        .big-step1 {
+            margin-top: 40px;
+        }
         .img-tro2 img {
             margin-top: 0px !important;
             position: unset !important;
@@ -142,16 +146,16 @@ p{
             transform: translate(0%, 0%) ;
             width: 100% !important;
         }
-        back1{
+        .back1{
             padding: 0 0 50px 0;
             margin-top: 0;
-            margin-left: 00px;
+            margin-left: 0px;
 
         }
         .next1{
             padding: 0 0 50px 0;
             margin-top: 0;
-            margin-right: 00px;
+            margin-right: 0px;
         }
         .next1 button{
             padding: 10px 10px;

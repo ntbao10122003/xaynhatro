@@ -127,7 +127,9 @@ button.bt:focus {
 }
 .checker{
     justify-content: center;  
-    margin-bottom: 40px;  
+}
+section.slect {
+    margin: 70px 0;
 }
 label.form-check-label {
     font-size: 18px;
@@ -172,7 +174,16 @@ label.form-check-label {
         max-width: 1140px !important;
     }
 }
-@media screen   and (min-width: 768px) and (max-width: 992px){
+@media screen and (max-width: 1200px){
+    section.slect {
+        margin: 60px 0;
+    }
+}
+
+@media screen and (max-width: 992px){
+    section.slect {
+        margin: 40px 0;
+    }
     .content h2 {
         font-size: 30px;
         
@@ -215,6 +226,20 @@ label.form-check-label {
     }
 
 
+}
+@media screen  and (max-width: 768px){
+    section.slect {
+        margin: 20px 0;
+    }
+    .back1 {
+        margin-left: 10px;
+    }
+    .next1 {
+        margin-right: 10px;
+    }
+    .check{
+        height: 60px;
+    }
 }
 
 

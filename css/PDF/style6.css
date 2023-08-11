@@ -53,9 +53,9 @@ p{
     width: 55%;
     margin: 0 auto;
 }
-.title-4{
+/* .title-4{
     margin-top: 50px;
-}
+} */
 .title-4 p{
     font-size: 1rem;
     color: #7E7E7E;
@@ -105,7 +105,9 @@ button.bt:focus {
 .next1 button:hover {
     background: #78A754;
 }
-
+.detail-tro4 {
+    margin: 70px auto;
+}
 @media screen and (max-width: 1600px){
 
 }
@@ -113,11 +115,16 @@ button.bt:focus {
     
 }
 @media screen and (max-width: 1200px){
-    
+    .detail-tro4 {
+        margin: 40px auto;
+    }
 }
 @media screen and (max-width: 991px){
     .content-tro4{
         width: 85%;
+    }
+    .detail-tro4 {
+        margin: 20px auto;
     }
 }
 @media screen and (max-width: 768px){

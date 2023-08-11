@@ -6,10 +6,6 @@ p{
     width: 200px;
     margin-top: 20px;
 }
-    /* .main-tro1{
-        width: 90%;
-        margin: 0 auto;
-    } */
 .help1{
     color: #969696;
     border: 1px solid #969696;
@@ -111,7 +107,8 @@ p{
 
 .checker{
     justify-content: center;  
-    margin-bottom: 40px;  
+    /* margin-bottom: 40px;   */
+
 }
 .item {
     border: 1px solid #ced4da;
@@ -124,7 +121,7 @@ p{
 }
 .row.checker {
     width: 70%;
-    margin: 60px auto;
+    margin: 70px auto;
 }
 .help1:hover {
     background: #94CE68;
@@ -158,13 +155,13 @@ p{
     
     .row.checker {
         width: 85%;
-        margin: 60px auto;
+        margin: 40px auto;
     }
 }
-@media screen   and (min-width: 768px) and (max-width: 992px){
+@media screen  and (max-width: 992px){
     .row.checker {
         width: 101%;
-        margin: 60px auto;
+        margin: 20px auto;
     }
     .content h2 {
         font-size: 30px;
@@ -191,7 +188,12 @@ p{
     .b{
         padding: 34px 0 0 0;
     }
-
+    .back1 {
+        margin-left: 10px;
+    }
+    .next1 {
+        margin-right: 10px;
+    }
 
 }
 
@@ -228,7 +230,10 @@ p{
         padding: 0px 0 0 8px;
         /* color: #747474; */
     }
-
+    
+    .next1 button {
+        padding: 10px 25px;
+    }
 }
 
 @media screen  and (max-width: 400px    ){

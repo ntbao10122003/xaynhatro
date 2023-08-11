@@ -51,13 +51,13 @@ p{
     border-radius: 10px;
     outline: none;
 }
-.big-step1{
-    margin-top: 120px;
-}
+/* .big-step1{
+    margin-top: 60px;
+} */
 .img-tro2 img{
     margin-top: 100px;
         position: absolute;
-        top: 50%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
       width: 100%;
@@ -74,7 +74,12 @@ p{
 .next1 button:hover {
     background: #78A754;
 }
-
+.col-sm-7.col-md-7.col-lg-7 {
+    color: #747474;
+}
+.co1{
+    margin: 70px 0;
+}
 @media screen and ( max-width: 1600px)
     {
 
@@ -96,6 +101,9 @@ p{
             margin-top: 150px;
 
         }
+        .co1{
+            margin: 40px 0;
+        }
 
     }
     @media screen and ( max-width: 991px)
@@ -113,6 +121,9 @@ p{
         }
         .next1 button{
             padding: 10px 10px;
+        }
+        .co1{
+            margin: 20px 0;
         }
     }
     
@@ -132,9 +143,15 @@ p{
         .next1 button{
             padding: 10px 10px;
         }
+        .co1{
+            margin: 0;
+        }
     }
     @media screen and ( max-width: 576px)
     {
+        .big-step1 {
+            margin-top: 40px;
+        }
         .img-tro2 img {
             margin-top: 0px !important;
             position: unset !important;
@@ -143,16 +160,12 @@ p{
             transform: translate(0%, 0%) ;
             width: 100% !important;
         }
-        back1{
-            padding: 0 0 50px 0;
-            margin-top: 0;
-            margin-left: 00px;
+        .back1{
+            margin-left: 10px;
 
         }
         .next1{
-            padding: 0 0 50px 0;
-            margin-top: 0;
-            margin-right: 00px;
+            margin-right: 10px;
         }
         .next1 button{
             padding: 10px 10px;

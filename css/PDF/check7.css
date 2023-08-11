@@ -55,7 +55,7 @@ p{
 }
 .ftex {
     color: #747474;
-    margin: 20px 0;
+    /* margin: 20px 0; */
     text-align: center;
     width: 100%;
     height: auto;
@@ -121,7 +121,7 @@ p{
 }
 .checker{
     justify-content: center;  
-    margin-bottom: 40px;  
+    margin: 70px 0;
 }
 label.form-check-label {
     font-size: 26px;
@@ -140,6 +140,9 @@ label.form-check-label {
 @media screen   and (min-width: 1200px){
     .container{
         max-width: 1140px !important;
+    }
+    .checker{
+        margin: 40px 0;
     }
 }
 @media screen   and (min-width: 768px) and (max-width: 992px){
@@ -168,12 +171,23 @@ label.form-check-label {
     .b{
         padding: 34px 0 0 0;
     }
-
+    .checker{
+        margin: 20px 0;
+    }
 
 }
 
 
 @media screen  and (max-width: 576px){
+    .back1{
+        margin-left: 10px;
+    }
+    .next1{
+        margin-right: 10px;
+    }
+    .next1 button{
+        padding: 10px 25px;
+    }
     .logo {
         width: 200px;
 

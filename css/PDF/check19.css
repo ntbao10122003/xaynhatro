@@ -61,7 +61,7 @@ button.bt:focus {
     position: relative;
 }
 section.slect {
-    margin: 30px auto;
+    margin: 70px auto;
 }
 .left {
     width: 100%;
@@ -98,9 +98,7 @@ section.slect {
     transform: translate(-50%,-50%);
 }
 .content {
-    width: 70%;
-    position: absolute;
-    top: 25%;
+    margin: 55px 0;
 }
 .content h2 {
     font-size: 60px;
@@ -149,7 +147,13 @@ section.slect {
         max-width: 1140px !important;
     }
 }
-@media screen   and (min-width: 768px) and (max-width: 992px){
+@media screen   and (max-width: 1200px){
+    section.slect {
+        margin: 60px auto;
+    }
+}
+
+@media screen and (max-width: 992px){
     .content h2 {
         font-size: 30px;
         
@@ -175,10 +179,25 @@ section.slect {
     .b{
         padding: 34px 0 0 0;
     }
-
+    section.slect {
+        margin: 40px auto;
+    }
 
 }
-
+@media screen   and (max-width: 768px){
+    .content {
+        margin: 0;
+    }
+    section.slect {
+        margin: 20px auto;
+    }
+    .next1 {
+        margin-right: 10px;
+    }
+    .back1 {
+        margin-left: 10px;
+    }
+}
 
 @media screen  and (max-width: 576px){
     .logo {

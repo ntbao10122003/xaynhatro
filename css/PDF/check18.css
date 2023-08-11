@@ -234,13 +234,36 @@ label {
 .next button:focus {
     outline: none;
 }
+section.center {
+    margin-bottom: 70px;
+}
+
+section.slect {
+    margin-top: 70px;
+}
 /* =================================================================================================================================== */
 @media (min-width: 1200px){
     .container{
         max-width: 1140px !important;
     }
 }
-@media screen   and (min-width: 768px) and (max-width: 992px){
+@media screen and (max-width: 1200px){
+    section.center {
+        margin-bottom: 60px;
+    }
+    
+    section.slect {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 992px){
+    section.center {
+        margin-bottom: 40px;
+    }
+    
+    section.slect {
+        margin-top: 40px;
+    }
     .content h2 {
         font-size: 30px;
         
@@ -277,7 +300,21 @@ label {
 
 }
 
-
+@media screen  and (max-width: 768px){
+    section.center {
+        margin-bottom: 20px;
+    }
+    
+    section.slect {
+        margin-top: 20px;
+    }
+    .next1 {
+        margin-right: 10px;
+    }
+    .back1 {
+        margin-left: 10px;
+    }
+}
 @media screen  and (max-width: 576px){
     .logo {
         width: 200px;

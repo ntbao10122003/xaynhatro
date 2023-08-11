@@ -55,6 +55,7 @@ p{
 .khoi_12  {
     display: flex;
     justify-content: center;
+    margin: 70px 0;
 }
 .title_khoi_12 {
     font-size: 40px;
@@ -110,7 +111,17 @@ p{
 button.bt:focus {
     outline: none;
 }
-@media screen and (max-width: 991px){}
+
+@media screen and (max-width: 1200px){
+    .khoi_12  {
+        margin: 60px 0;
+    }
+}
+@media screen and (max-width: 991px){
+    .khoi_12  {
+        margin: 40px 0;
+    }
+}
 @media screen and (max-width: 768px){
     .box_khoi_12 {
         width: 100%;
@@ -140,6 +151,15 @@ button.bt:focus {
         border-radius: 25px;
         font-size: 15px;
         padding: 10px 20px;
+    }
+    .khoi_12  {
+        margin: 20px 0;
+    }
+    .back1{
+        margin-left: 10px;
+    }
+    .next1{
+        margin-right: 10px;
     }
 }
 @media screen and (max-width: 576px){
