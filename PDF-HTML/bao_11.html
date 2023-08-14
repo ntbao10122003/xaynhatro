@@ -39,7 +39,8 @@
               eligendi cumque obcaecati, quam nulla praesentium possimus
               architecto quas rem vitae. Atque, voluptas?
             </div>
-            <textarea name="" id="" cols="30" rows="2"></textarea>
+            <textarea name="" id="my-text" oninput="count_characters()" cols="30" rows="2" maxlength="32"></textarea>
+            <span class="kitu" id="character-count">0</span>/32
           </div>
         </section>
         <div class="row">
@@ -56,7 +57,7 @@
         </div>
       </div>
     </div>
-
+    <script src="../js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

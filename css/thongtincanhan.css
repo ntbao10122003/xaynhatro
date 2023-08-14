@@ -20,7 +20,7 @@ main {
 }
 
 .container-con-ttcn {
-    padding: 50px 29px 45px 45px;
+    padding: 35px 29px 45px 45px;
 }
 .col-12-box-ttcn {
     margin-top: 110px;
@@ -33,22 +33,19 @@ main {
 }
 .title-left-ttcn {
     padding-top: 20px;
-    padding-bottom: 125px;
+    padding-bottom: 65px;
 }
 .ten-ttcn {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    padding-bottom: 15px;
-    padding-top: 30px;
+    padding: 5px 0;
+
     border-bottom: 1px solid #cdcdcd;
 }
-.ten-left span {
-    font-size: 20px;
-}
+
 .ten-right a {
     color: #000;
-    font-size: 18px;
     text-decoration: underline;
 }
 .ten-left p {
