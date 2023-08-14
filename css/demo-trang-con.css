@@ -199,7 +199,6 @@
 
 .title-chitiet {
     color: #000;
-    font-size: 24px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -227,7 +226,6 @@
     text-align: justify;
 }
 .xem-them a {
-    font-size: 17px;
     color: #94CE68;
 }
 
@@ -272,7 +270,6 @@
     padding-top: 35px;
 }
 .form-chovay span {
-    font-size: 18px;
     font-weight: 600;
 }
 
@@ -320,7 +317,6 @@
 }
 .title-tien-nghi {
     margin-bottom: 22px;
-    font-size: 19px;
     font-weight: 600;
     color: #94CE68;
 }
@@ -375,7 +371,6 @@
     height: 210px;
 }
 .map-12-trang-con span{
-    font-size: 20px;
     font-weight: 600;
 }
 .loaihinh a {
@@ -397,7 +392,6 @@
     margin-top: 20px;
 }
 .nhathue-gando span {
-    font-size: 18px;
     font-weight: 600;
 }
 

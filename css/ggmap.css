@@ -5,8 +5,9 @@ iframe{
 
 .btn2 {
     text-align: center;
-    padding: 28px 0 60px;
-    border-bottom: 1px solid;
+    position: fixed;
+    bottom: 50px;
+
 }
 
 .btn2 button {
@@ -20,4 +21,14 @@ iframe{
 }
 .btn2 a{
     color: #fff;
+}
+.btn2-2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.btn2 a{
+    text-decoration: none;
 }

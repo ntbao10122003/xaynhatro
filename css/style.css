@@ -937,6 +937,66 @@ span.quocgia {
 }
 
 
+
+
+
+
+
+
+
+.btn2 {
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+
+}
+
+.btn2 button {
+    width: auto;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #94ce68;
+    color: #fff;
+    padding: 0 28px;
+    border: none;
+}
+.btn2 a{
+    color: #fff;
+}
+.btn2-2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.btn2 a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and ( max-width:991px){
 
 

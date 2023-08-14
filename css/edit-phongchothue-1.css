@@ -20,6 +20,10 @@ select.form-select {
     border-radius: 20px;
     font-size: 14px;
 }
+#selectedCount{
+    border: none;
+    font-size: 18px;
+}
 .caidat {
     float: right;
 }
@@ -61,6 +65,30 @@ input.search-input {
 }
 .cacbolockhac {
     margin: 0 5px;
+}
+#buyButton{
+    display: none;
+    opacity: 1;
+    z-index: 10;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #94ce68;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rent-button{
+    margin-bottom: 50px;
+}
+.rent-btn{
+    font-size: 1rem;
+    margin-top: -5px;
+}
+.edit-buy{
+    text-decoration: underline;
 }
 div#example_length {
     display: none;
@@ -129,6 +157,9 @@ table{
 }
 table.dataTable>thead>tr>th, table.dataTable>thead>tr>td {
     white-space: nowrap;
+}
+.wrap{
+    margin-top: 100px;
 }
 .vitri {
     width: 140px;
