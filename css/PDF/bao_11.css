@@ -77,7 +77,9 @@ button.bt:focus {
     resize: vertical;
     height: 200px;
     border: 1px solid black;
-    margin-bottom: 30px;
+}
+span.kitu {
+    color: gray;
 }
 .box_khoi_11 {
     width: 70%;
