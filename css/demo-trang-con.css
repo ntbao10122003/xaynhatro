@@ -92,8 +92,11 @@
     height: 100vh;
 }
 .col-7-header-trangcon span a {
-    padding: 0px 15px;
+    padding: 0px 8px;
     color: #94ce68;
+}
+.fa-dollar-sign{
+    color: #94CE68;
 }
 .box-header-trang-con-right {
     border-bottom: 1px solid #94ce68;
