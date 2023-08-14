@@ -24,7 +24,12 @@ signupLink.addEventListener('click', signupClick);
   }
  }
 
-
+//Đếm số kí tự textarea
+function count_characters() {    
+  var textarea = document.getElementById("my-text"); 
+  var count = textarea.value.length; 
+  document.getElementById("character-count").innerText = count; 
+}
 
 
 
@@ -85,3 +90,7 @@ function showFile(){
 }
 
 // upload ảnh 
+
+
+
+
